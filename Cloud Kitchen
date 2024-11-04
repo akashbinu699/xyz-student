@@ -1,0 +1,77 @@
+# Android-specific exclusions
+.gradle/
+build/
+.idea/
+local.properties
+
+# Firebase
+google-services.json
+
+# Environment Files
+*.keystore
+.env
+
+# Log files
+*.log
+
+# macOS/Windows specific files
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+*.iml
+
+
+
+
+QuickEats/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/example/quickeats/        # Your Kotlin files
+│   │   │   ├── res/                              # Drawable, layout, values, etc.
+│   │   └── AndroidManifest.xml
+│   ├── build.gradle
+│   └── proguard-rules.pro
+├── gradle/
+│   └── wrapper/                                  # Gradle wrapper files
+├── .gitignore
+├── README.md
+├── LICENSE
+└── settings.gradle
+
+
+
+
+# QuickEats
+
+QuickEats is an Android app designed to bring a variety of cloud kitchens to your doorstep. Users can browse restaurants, place orders, and track deliveries in real-time.
+
+## Features
+- **User Authentication** with Google and Facebook.
+- **Restaurant Listings** and **Menu Browsing**.
+- **Order Tracking** using Google Maps API.
+- **User Profile and Order History** management.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/quickeats.git
+
+
+
+
+
+---
+
+### **5. Version Control Practices**
+
+To maintain an organized repository:
+- **Use Branches**: Create separate branches for major features (e.g., `feature/authentication`, `feature/order-tracking`).
+- **Commit Regularly**: Make frequent, descriptive commits (e.g., `Implement Google OAuth login`).
+- **Pull Requests**: Use pull requests for merging branches to `main` after review.
+
+---
+
+This setup will ensure that your QuickEats app codebase on GitHub is clean, organized, and secure, making collaboration and deployment easier. Let me know if you need further assistance with any part of this setup!
